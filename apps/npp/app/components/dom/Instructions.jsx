@@ -32,6 +32,15 @@ const Instructions = () => {
               to jump
             </span>
           </p>
+          <p className="flex items-center gap-2">
+            <span className="text-blue-600">↩️</span>
+            <span>
+              <kbd className="px-2 py-1 bg-gray-100 rounded text-sm font-semibold">
+                Enter
+              </kbd>{" "}
+              to interact
+            </span>
+          </p>
         </div>
       </div>
     </>
