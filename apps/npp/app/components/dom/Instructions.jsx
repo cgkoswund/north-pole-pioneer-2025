@@ -16,6 +16,10 @@ const Instructions = () => {
               <span>Scroll to zoom in and out.</span>
             </p>
             <p className="flex items-center gap-3 sm:gap-4">
+              <span className="text-2xl sm:text-3xl">🔍</span>
+              <span>F to toggle fullscreen.</span>
+            </p>
+            <p className="flex items-center gap-3 sm:gap-4">
               <span className="text-2xl sm:text-3xl">⌨️</span>
               <span>
                 <kbd className="px-3 py-1.5 sm:px-4 sm:py-2 bg-slate-700 rounded-lg text-sm sm:text-base md:text-lg font-semibold border border-slate-600 shadow-md">
