@@ -1,3 +1,6 @@
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+
 const BaseCanvas = ({
   canvasRef,
   width,
@@ -7,7 +10,17 @@ const BaseCanvas = ({
   width: number;
   height: number;
 }) => {
-  return <canvas ref={canvasRef} width={width} height={height} />;
+  return (
+    <div>
+      <Canvas ref={canvasRef}>
+        <mesh>
+          <boxGeometry />
+          <meshBasicMaterial />
+        </mesh>
+        <OrbitControls />
+      </Canvas>
+    </div>
+  );
 };
 
 export default BaseCanvas;
